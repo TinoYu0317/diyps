@@ -48,37 +48,37 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
   } else if (toolChoice == '2') { // second tool
 
     stroke(01);
-    image(img, mouseX-50, mouseY-50);;
+    image(head2, mouseX-50, mouseY-50);;
   } else if (toolChoice == '3') { // third tool
 
     stroke(01);
-    image(img, mouseX-50, mouseY-50);;
+    image(head3, mouseX-50, mouseY-50);;
   } else if (toolChoice == '4') {
 
     stroke(0, 0, 255);
-    image(img, mouseX-50, mouseY-50);;
+    image(head4, mouseX-50, mouseY-50);;
   } else if (key == '5') { // this tool calls a function
-    
+    image(head10, mouseX-50, mouseY-50);;
   } else if (toolChoice == '6') {
 
     stroke(200);
-    image(img, mouseX-50, mouseY-50);
+    image(head5, mouseX-50, mouseY-50);
   } else if (toolChoice == '7') {
 
     fill(100, 200, 100);
-    circle(img, mouseX-50, mouseY-50);
+    image(head6, mouseX-50, mouseY-50);
   } else if (toolChoice == '8') {
 
     fill(300, 100, 0, 80);
-    image(img, mouseX-50, mouseY-50);
+    image(head7, mouseX-50, mouseY-50);
   } else if (toolChoice == '9') {
 
     fill(300, 100, 0, 80);
-    image(img, mouseX-50, mouseY-50);
+    image(head8, mouseX-50, mouseY-50);
   } else if (toolChoice == '0') {
     stroke(0, 0);
     fill(random(255), random(255), random(255), random(255));
-    image(img, mouseX-50, mouseY-50);
+    image(head9, mouseX-50, mouseY-50);
     
     
   }
